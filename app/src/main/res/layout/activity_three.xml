@@ -4,15 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#74AACA"
     tools:context=".three">
 
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Book Hotel"
-        android:textAlignment="center"
-        android:textSize="40sp" />
+        android:background="#808080"
+        android:id="@+id/recycler3">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
 </RelativeLayout>

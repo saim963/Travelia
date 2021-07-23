@@ -70,15 +70,20 @@
                 app:cardCornerRadius="20sp"
                 android:layout_margin="10sp"
                 >
-
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110sp"
+                    android:layout_height="110sp"
+                    app:cardCornerRadius="110sp">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="100sp"
+                    android:layout_width="110sp"
+                    android:layout_height="110sp"
+                    android:scaleType="centerCrop"
                     android:textAlignment="gravity"
                     android:layout_gravity="left"
                     android:src="@drawable/cardone"
                     android:layout_marginRight="205sp"
                     />
+                </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -104,19 +109,26 @@
                 android:layout_margin="10sp"
                 >
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="110sp"
+                android:layout_height="110sp"
+                app:cardCornerRadius="110sp">
+
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="100sp"
+                    android:layout_width="110sp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
                     android:textAlignment="gravity"
                     android:layout_gravity="left"
                     android:src="@drawable/cp"
                     android:layout_marginRight="239sp"
                     />
+            </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Check Places"
+                    android:text="Route Codes"
                     android:textStyle="italic"
                     android:textSize="30sp"
                     android:textAlignment="gravity"
@@ -137,19 +149,26 @@
                 android:layout_margin="10sp"
                 >
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="110sp"
+                android:layout_height="110sp"
+                app:cardCornerRadius="110sp">
+
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="100sp"
+                    android:layout_width="110sp"
+                    android:layout_height="110sp"
+                    android:scaleType="centerCrop"
                     android:textAlignment="gravity"
                     android:layout_gravity="left"
                     android:src="@drawable/hotel"
                     android:layout_marginRight="205sp"
                     />
+            </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Book Hotel"
+                    android:text="Check Places"
                     android:textStyle="italic"
                     android:textSize="30sp"
                     android:textAlignment="gravity"
@@ -170,14 +189,21 @@
                 android:layout_margin="10sp"
                 >
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="110sp"
+                android:layout_height="110sp"
+                app:cardCornerRadius="110sp">
+
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="100sp"
+                    android:layout_width="110sp"
+                    android:layout_height="110sp"
+                    android:scaleType="centerCrop"
                     android:textAlignment="gravity"
                     android:layout_gravity="left"
                     android:src="@drawable/taxi"
                     android:layout_marginRight="210sp"
                     />
+            </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -203,14 +229,21 @@
                 android:layout_margin="10sp"
                 >
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="110sp"
+                android:layout_height="110sp"
+                app:cardCornerRadius="110sp">
+
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="100sp"
+                    android:layout_width="110sp"
+                    android:layout_height="110sp"
                     android:textAlignment="gravity"
+                    android:scaleType="centerCrop"
                     android:layout_gravity="left"
                     android:src="@drawable/guide"
                     android:layout_marginRight="210sp"
                     />
+            </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -222,8 +255,8 @@
                     android:layout_gravity="right"
                     android:paddingTop="30sp"
                     android:paddingBottom="30sp"
-                    android:paddingRight="30sp"/>
-
+                    android:paddingRight="30sp"
+                    />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -236,14 +269,21 @@
                 android:layout_margin="10sp"
                 >
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="110sp"
+                android:layout_height="110sp"
+                app:cardCornerRadius="110sp">
+
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="100sp"
+                    android:layout_width="110sp"
+                    android:layout_height="110sp"
                     android:textAlignment="gravity"
+                    android:scaleType="centerCrop"
                     android:layout_gravity="left"
                     android:src="@drawable/star"
                     android:layout_marginRight="210sp"
                     />
+            </androidx.cardview.widget.CardView>
 
                 <TextView
                     android:layout_width="wrap_content"

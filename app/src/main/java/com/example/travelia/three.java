@@ -9,6 +9,6 @@ public class three extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_three);
+        setContentView(R.layout.item_design3);
     }
 }
